@@ -14,6 +14,8 @@
 		F513FDF22A098A3F008A4336 /* vk_gamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513FDF12A098A3F008A4336 /* vk_gamesTests.swift */; };
 		F513FDFC2A098A3F008A4336 /* vk_gamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513FDFB2A098A3F008A4336 /* vk_gamesUITests.swift */; };
 		F513FDFE2A098A3F008A4336 /* vk_gamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513FDFD2A098A3F008A4336 /* vk_gamesUITestsLaunchTests.swift */; };
+		F54077BD2A099AD4004F0263 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54077BC2A099AD4004F0263 /* MemoryGame.swift */; };
+		F54077C02A099AFF004F0263 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54077BF2A099AFF004F0263 /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F513FDF72A098A3F008A4336 /* vk-gamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vk-gamesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F513FDFB2A098A3F008A4336 /* vk_gamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vk_gamesUITests.swift; sourceTree = "<group>"; };
 		F513FDFD2A098A3F008A4336 /* vk_gamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vk_gamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F54077BC2A099AD4004F0263 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		F54077BF2A099AFF004F0263 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		F513FDDF2A098A3E008A4336 /* vk-games */ = {
 			isa = PBXGroup;
 			children = (
+				F54077BE2A099AEA004F0263 /* ViewModel */,
+				F54077BB2A099AAF004F0263 /* Model */,
 				F513FDE02A098A3E008A4336 /* vk_gamesApp.swift */,
 				F513FDE22A098A3E008A4336 /* ContentView.swift */,
 				F513FDE42A098A3F008A4336 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				F513FDFD2A098A3F008A4336 /* vk_gamesUITestsLaunchTests.swift */,
 			);
 			path = "vk-gamesUITests";
+			sourceTree = "<group>";
+		};
+		F54077BB2A099AAF004F0263 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F54077BC2A099AD4004F0263 /* MemoryGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F54077BE2A099AEA004F0263 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F54077BF2A099AFF004F0263 /* EmojiMemoryGame.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54077BD2A099AD4004F0263 /* MemoryGame.swift in Sources */,
 				F513FDE32A098A3E008A4336 /* ContentView.swift in Sources */,
+				F54077C02A099AFF004F0263 /* EmojiMemoryGame.swift in Sources */,
 				F513FDE12A098A3E008A4336 /* vk_gamesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

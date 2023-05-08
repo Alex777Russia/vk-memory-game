@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "mail-logo-new_vusqkow_CGsb98M.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "mail-logo-new_vusqkow_CGsb98M 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "mail-logo-new_vusqkow_CGsb98M 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

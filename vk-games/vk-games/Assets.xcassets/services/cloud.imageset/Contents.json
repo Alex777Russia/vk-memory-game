@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "vk_cloud_logo_EosUtJI.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "vk_cloud_logo_EosUtJI 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "vk_cloud_logo_EosUtJI 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

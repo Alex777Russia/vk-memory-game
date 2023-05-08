@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F513FDE12A098A3E008A4336 /* vk_gamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513FDE02A098A3E008A4336 /* vk_gamesApp.swift */; };
+		F513FDE32A098A3E008A4336 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513FDE22A098A3E008A4336 /* ContentView.swift */; };
+		F513FDE52A098A3F008A4336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F513FDE42A098A3F008A4336 /* Assets.xcassets */; };
+		F513FDE82A098A3F008A4336 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F513FDE72A098A3F008A4336 /* Preview Assets.xcassets */; };
+		F513FDF22A098A3F008A4336 /* vk_gamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513FDF12A098A3F008A4336 /* vk_gamesTests.swift */; };
+		F513FDFC2A098A3F008A4336 /* vk_gamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513FDFB2A098A3F008A4336 /* vk_gamesUITests.swift */; };
+		F513FDFE2A098A3F008A4336 /* vk_gamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513FDFD2A098A3F008A4336 /* vk_gamesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F513FDEE2A098A3F008A4336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F513FDD52A098A3E008A4336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F513FDDC2A098A3E008A4336;
+			remoteInfo = "vk-games";
+		};
+		F513FDF82A098A3F008A4336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F513FDD52A098A3E008A4336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F513FDDC2A098A3E008A4336;
+			remoteInfo = "vk-games";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F513FDDD2A098A3E008A4336 /* vk-games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vk-games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F513FDE02A098A3E008A4336 /* vk_gamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vk_gamesApp.swift; sourceTree = "<group>"; };
+		F513FDE22A098A3E008A4336 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F513FDE42A098A3F008A4336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F513FDE72A098A3F008A4336 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F513FDED2A098A3F008A4336 /* vk-gamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vk-gamesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F513FDF12A098A3F008A4336 /* vk_gamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vk_gamesTests.swift; sourceTree = "<group>"; };
+		F513FDF72A098A3F008A4336 /* vk-gamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vk-gamesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F513FDFB2A098A3F008A4336 /* vk_gamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vk_gamesUITests.swift; sourceTree = "<group>"; };
+		F513FDFD2A098A3F008A4336 /* vk_gamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vk_gamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F513FDDA2A098A3E008A4336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F513FDEA2A098A3F008A4336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F513FDF42A098A3F008A4336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F513FDD42A098A3E008A4336 = {
+			isa = PBXGroup;
+			children = (
+				F513FDDF2A098A3E008A4336 /* vk-games */,
+				F513FDF02A098A3F008A4336 /* vk-gamesTests */,
+				F513FDFA2A098A3F008A4336 /* vk-gamesUITests */,
+				F513FDDE2A098A3E008A4336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F513FDDE2A098A3E008A4336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F513FDDD2A098A3E008A4336 /* vk-games.app */,
+				F513FDED2A098A3F008A4336 /* vk-gamesTests.xctest */,
+				F513FDF72A098A3F008A4336 /* vk-gamesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F513FDDF2A098A3E008A4336 /* vk-games */ = {
+			isa = PBXGroup;
+			children = (
+				F513FDE02A098A3E008A4336 /* vk_gamesApp.swift */,
+				F513FDE22A098A3E008A4336 /* ContentView.swift */,
+				F513FDE42A098A3F008A4336 /* Assets.xcassets */,
+				F513FDE62A098A3F008A4336 /* Preview Content */,
+			);
+			path = "vk-games";
+			sourceTree = "<group>";
+		};
+		F513FDE62A098A3F008A4336 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F513FDE72A098A3F008A4336 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F513FDF02A098A3F008A4336 /* vk-gamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F513FDF12A098A3F008A4336 /* vk_gamesTests.swift */,
+			);
+			path = "vk-gamesTests";
+			sourceTree = "<group>";
+		};
+		F513FDFA2A098A3F008A4336 /* vk-gamesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F513FDFB2A098A3F008A4336 /* vk_gamesUITests.swift */,
+				F513FDFD2A098A3F008A4336 /* vk_gamesUITestsLaunchTests.swift */,
+			);
+			path = "vk-gamesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F513FDDC2A098A3E008A4336 /* vk-games */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F513FE012A098A3F008A4336 /* Build configuration list for PBXNativeTarget "vk-games" */;
+			buildPhases = (
+				F513FDD92A098A3E008A4336 /* Sources */,
+				F513FDDA2A098A3E008A4336 /* Frameworks */,
+				F513FDDB2A098A3E008A4336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vk-games";
+			productName = "vk-games";
+			productReference = F513FDDD2A098A3E008A4336 /* vk-games.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F513FDEC2A098A3F008A4336 /* vk-gamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F513FE042A098A3F008A4336 /* Build configuration list for PBXNativeTarget "vk-gamesTests" */;
+			buildPhases = (
+				F513FDE92A098A3F008A4336 /* Sources */,
+				F513FDEA2A098A3F008A4336 /* Frameworks */,
+				F513FDEB2A098A3F008A4336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F513FDEF2A098A3F008A4336 /* PBXTargetDependency */,
+			);
+			name = "vk-gamesTests";
+			productName = "vk-gamesTests";
+			productReference = F513FDED2A098A3F008A4336 /* vk-gamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F513FDF62A098A3F008A4336 /* vk-gamesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F513FE072A098A3F008A4336 /* Build configuration list for PBXNativeTarget "vk-gamesUITests" */;
+			buildPhases = (
+				F513FDF32A098A3F008A4336 /* Sources */,
+				F513FDF42A098A3F008A4336 /* Frameworks */,
+				F513FDF52A098A3F008A4336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F513FDF92A098A3F008A4336 /* PBXTargetDependency */,
+			);
+			name = "vk-gamesUITests";
+			productName = "vk-gamesUITests";
+			productReference = F513FDF72A098A3F008A4336 /* vk-gamesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F513FDD52A098A3E008A4336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F513FDDC2A098A3E008A4336 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F513FDEC2A098A3F008A4336 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F513FDDC2A098A3E008A4336;
+					};
+					F513FDF62A098A3F008A4336 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F513FDDC2A098A3E008A4336;
+					};
+				};
+			};
+			buildConfigurationList = F513FDD82A098A3E008A4336 /* Build configuration list for PBXProject "vk-games" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F513FDD42A098A3E008A4336;
+			productRefGroup = F513FDDE2A098A3E008A4336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F513FDDC2A098A3E008A4336 /* vk-games */,
+				F513FDEC2A098A3F008A4336 /* vk-gamesTests */,
+				F513FDF62A098A3F008A4336 /* vk-gamesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F513FDDB2A098A3E008A4336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F513FDE82A098A3F008A4336 /* Preview Assets.xcassets in Resources */,
+				F513FDE52A098A3F008A4336 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F513FDEB2A098A3F008A4336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F513FDF52A098A3F008A4336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F513FDD92A098A3E008A4336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F513FDE32A098A3E008A4336 /* ContentView.swift in Sources */,
+				F513FDE12A098A3E008A4336 /* vk_gamesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F513FDE92A098A3F008A4336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F513FDF22A098A3F008A4336 /* vk_gamesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F513FDF32A098A3F008A4336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F513FDFE2A098A3F008A4336 /* vk_gamesUITestsLaunchTests.swift in Sources */,
+				F513FDFC2A098A3F008A4336 /* vk_gamesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F513FDEF2A098A3F008A4336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F513FDDC2A098A3E008A4336 /* vk-games */;
+			targetProxy = F513FDEE2A098A3F008A4336 /* PBXContainerItemProxy */;
+		};
+		F513FDF92A098A3F008A4336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F513FDDC2A098A3E008A4336 /* vk-games */;
+			targetProxy = F513FDF82A098A3F008A4336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F513FDFF2A098A3F008A4336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F513FE002A098A3F008A4336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F513FE022A098A3F008A4336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vk-games/Preview Content\"";
+				DEVELOPMENT_TEAM = V89L9C89Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vk.AlexeyShevchenko.vk-games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F513FE032A098A3F008A4336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vk-games/Preview Content\"";
+				DEVELOPMENT_TEAM = V89L9C89Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vk.AlexeyShevchenko.vk-games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F513FE052A098A3F008A4336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V89L9C89Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vk.AlexeyShevchenko.vk-gamesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vk-games.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vk-games";
+			};
+			name = Debug;
+		};
+		F513FE062A098A3F008A4336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V89L9C89Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vk.AlexeyShevchenko.vk-gamesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vk-games.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vk-games";
+			};
+			name = Release;
+		};
+		F513FE082A098A3F008A4336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V89L9C89Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vk.AlexeyShevchenko.vk-gamesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vk-games";
+			};
+			name = Debug;
+		};
+		F513FE092A098A3F008A4336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V89L9C89Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vk.AlexeyShevchenko.vk-gamesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vk-games";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F513FDD82A098A3E008A4336 /* Build configuration list for PBXProject "vk-games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F513FDFF2A098A3F008A4336 /* Debug */,
+				F513FE002A098A3F008A4336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F513FE012A098A3F008A4336 /* Build configuration list for PBXNativeTarget "vk-games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F513FE022A098A3F008A4336 /* Debug */,
+				F513FE032A098A3F008A4336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F513FE042A098A3F008A4336 /* Build configuration list for PBXNativeTarget "vk-gamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F513FE052A098A3F008A4336 /* Debug */,
+				F513FE062A098A3F008A4336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F513FE072A098A3F008A4336 /* Build configuration list for PBXNativeTarget "vk-gamesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F513FE082A098A3F008A4336 /* Debug */,
+				F513FE092A098A3F008A4336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F513FDD52A098A3E008A4336 /* Project object */;
+}

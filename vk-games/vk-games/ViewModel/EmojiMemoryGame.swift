@@ -13,21 +13,29 @@ class EmojiMemoryGame: ObservableObject {
     typealias Card = MemoryGame<String>.Card
     
     static var services = ["vk", "odnoclass", "geekbrains", "delivery", "yula", "teams", "dzen", "skillbox", "play", "music", "marusya", "mail", "cloud", "atom", "messege"]
-
+    
     static func createMemoryGame() -> MemoryGame<String> {
         MemoryGame<String>(numberOfPairsOfCards: 15) { pairIndex in
             EmojiMemoryGame.services[pairIndex]
         }
     }
-
+    
     @Published private var model = createMemoryGame()
-
+    
     var cards: [Card] {
         return model.cards
     }
-
+    
     // MARK: - Intent(s)
-    func choose(_ card: MemoryGame<String>.Card) {
+    func choose(_ card: Card) {
         model.choose(card)
+    }
+    
+    func shuffle() {
+        model.shuffle()
+    }
+    
+    func restart() {
+        model = EmojiMemoryGame.createMemoryGame()
     }
 }

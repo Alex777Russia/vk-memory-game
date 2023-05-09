@@ -20,9 +20,9 @@ class EmojiMemoryGame: ObservableObject {
         }
     }
 
-    @Published private var model: MemoryGame<String> = createMemoryGame()
+    @Published private var model = createMemoryGame()
 
-    var cards: [MemoryGame<String>.Card] {
+    var cards: [Card] {
         return model.cards
     }
 

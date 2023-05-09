@@ -18,6 +18,7 @@
 		F54077C02A099AFF004F0263 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54077BF2A099AFF004F0263 /* EmojiMemoryGame.swift */; };
 		F59966192A0A3AF500688280 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59966182A0A3AF500688280 /* Pie.swift */; };
 		F599661B2A0A3BE800688280 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F599661A2A0A3BE800688280 /* AspectVGrid.swift */; };
+		F599661D2A0A417800688280 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = F599661C2A0A417800688280 /* Cardify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		F54077BF2A099AFF004F0263 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		F59966182A0A3AF500688280 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 		F599661A2A0A3BE800688280 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
+		F599661C2A0A417800688280 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				F513FDE22A098A3E008A4336 /* ContentView.swift */,
 				F59966182A0A3AF500688280 /* Pie.swift */,
 				F599661A2A0A3BE800688280 /* AspectVGrid.swift */,
+				F599661C2A0A417800688280 /* Cardify.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F59966192A0A3AF500688280 /* Pie.swift in Sources */,
+				F599661D2A0A417800688280 /* Cardify.swift in Sources */,
 				F54077BD2A099AD4004F0263 /* MemoryGame.swift in Sources */,
 				F599661B2A0A3BE800688280 /* AspectVGrid.swift in Sources */,
 				F513FDE32A098A3E008A4336 /* ContentView.swift in Sources */,

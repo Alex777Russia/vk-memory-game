@@ -13,7 +13,7 @@ struct vk_gamesApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: game)
+            ContentView(game: game)
         }
     }
 }

@@ -10,6 +10,8 @@ import SwiftUI
 // ViewModel
 
 class EmojiMemoryGame: ObservableObject {
+    typealias Card = MemoryGame<String>.Card
+    
     static var services = ["vk", "odnoclass", "geekbrains", "delivery", "yula", "teams", "dzen", "skillbox", "play", "music", "marusya", "mail", "cloud", "atom", "messege"]
 
     static func createMemoryGame() -> MemoryGame<String> {

@@ -35,6 +35,8 @@ struct ContentView: View {
     var body: some View {
         ZStack(alignment: .bottom) {
             VStack {
+                Text("VK Memory Game")
+                    .font(.title)
                 gameBody
                 HStack {
                     restartButton
@@ -75,6 +77,9 @@ struct ContentView: View {
                 game.shuffle()
             }
         }
+        .frame(width: 115, height: 60)
+        .foregroundColor(.white)
+        .background(Color.blue)
     }
     
     var restartButton: some View {
@@ -84,6 +89,9 @@ struct ContentView: View {
                 game.restart()
             }
         }
+        .frame(width: 115, height: 60)
+        .foregroundColor(.white)
+        .background(Color.blue)
     }
     
     var gameBody: some View {
@@ -116,7 +124,7 @@ struct ContentView: View {
         static let aspectRatio: CGFloat = 3/3
         static let dealDuration: Double = 0.5
         static let totalDealDuration: Double = 2
-        static let undealtHeight: CGFloat = 90
+        static let undealtHeight: CGFloat = 70
         static let underltWidth = undealtHeight * aspectRatio
     }
 }

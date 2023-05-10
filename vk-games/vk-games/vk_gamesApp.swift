@@ -13,7 +13,18 @@ struct vk_gamesApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView(game: game)
+            TabView{
+                Menu()
+                    .tabItem {
+                        Image(systemName: "person.crop.circle")
+                        Text("About")
+                    }
+                ContentView(game: game)
+                    .tabItem {
+                        Image(systemName: "gamecontroller")
+                        Text("Game")
+                    }
+            }
         }
     }
 }

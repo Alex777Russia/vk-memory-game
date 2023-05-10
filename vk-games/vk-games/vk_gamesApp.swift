@@ -24,6 +24,11 @@ struct vk_gamesApp: App {
                         Image(systemName: "gamecontroller")
                         Text("Game")
                     }
+                ListSrevices()
+                    .tabItem {
+                        Image(systemName: "list.dash")
+                        Text("Services")
+                }
             }
         }
     }

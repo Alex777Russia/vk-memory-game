@@ -20,6 +20,8 @@
 		F599661B2A0A3BE800688280 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F599661A2A0A3BE800688280 /* AspectVGrid.swift */; };
 		F599661D2A0A417800688280 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = F599661C2A0A417800688280 /* Cardify.swift */; };
 		F59B10752A0BB84400A71005 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59B10742A0BB84400A71005 /* Menu.swift */; };
+		F59B10772A0BBBA700A71005 /* ListServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59B10762A0BBBA700A71005 /* ListServices.swift */; };
+		F59B10792A0BBD6900A71005 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59B10782A0BBD6900A71005 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		F599661A2A0A3BE800688280 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 		F599661C2A0A417800688280 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		F59B10742A0BB84400A71005 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		F59B10762A0BBBA700A71005 /* ListServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListServices.swift; sourceTree = "<group>"; };
+		F59B10782A0BBD6900A71005 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				F54077BC2A099AD4004F0263 /* MemoryGame.swift */,
+				F59B10782A0BBD6900A71005 /* Service.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 				F599661A2A0A3BE800688280 /* AspectVGrid.swift */,
 				F599661C2A0A417800688280 /* Cardify.swift */,
 				F59B10742A0BB84400A71005 /* Menu.swift */,
+				F59B10762A0BBBA700A71005 /* ListServices.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -301,8 +307,10 @@
 			files = (
 				F59966192A0A3AF500688280 /* Pie.swift in Sources */,
 				F599661D2A0A417800688280 /* Cardify.swift in Sources */,
+				F59B10772A0BBBA700A71005 /* ListServices.swift in Sources */,
 				F59B10752A0BB84400A71005 /* Menu.swift in Sources */,
 				F54077BD2A099AD4004F0263 /* MemoryGame.swift in Sources */,
+				F59B10792A0BBD6900A71005 /* Service.swift in Sources */,
 				F599661B2A0A3BE800688280 /* AspectVGrid.swift in Sources */,
 				F513FDE32A098A3E008A4336 /* ContentView.swift in Sources */,
 				F54077C02A099AFF004F0263 /* EmojiMemoryGame.swift in Sources */,
